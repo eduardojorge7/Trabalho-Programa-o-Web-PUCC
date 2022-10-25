@@ -1,0 +1,40 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+    <head>
+        <meta charset="UTF-8">
+        <meta name="viewport" content="width=device-width, initial-scale=1">
+        <link rel="stylesheet" type="text/css" href="reset.css">
+        <link rel="stylesheet" type="text/css" href="style.css">
+        <title>APP</title>
+    </head>
+
+    <body>
+        <header></header>
+        <main>
+            <div id="container-principal">
+                <div id="container-tucano">
+                    <img id="tucano-img" src="tucano2.png">
+                </div>
+                <div id="container-background">
+                    <img id="background-yellow-img" src="background-yellowV2.png">
+                    <div id="container-login">
+                        <p id="login-text">Login</p>
+                        <div id="container-login-inputs">
+                            <form action="/login" method="get">  <!--VOLTAR AQUI PRA CONFIGURAR O SERVIDOR-->
+                                <div class="label-float">
+                                    <input class="input" type="text" placeholder=" " id="usuario" name="usuario">
+                                    <label>Usuário</label><br><br>
+                                </div> 
+                                <div class="label-float">
+                                    <input class="input" type="text" placeholder=" " required id="senha" name="senha">
+                                    <label>Senha</label>
+
+                                </div> 
+                            </form>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </main>
+    </body>
+</html>

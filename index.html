@@ -18,19 +18,51 @@
                 <div id="container-background">
                     <img id="background-yellow-img" src="background-yellowV2.png">
                     <div id="container-login">
-                        <p id="login-text">Login</p>
+                        <div id="login-text">
+                            <p>Login</p>
+                        </div>
                         <div id="container-login-inputs">
                             <form action="/login" method="get">  <!--VOLTAR AQUI PRA CONFIGURAR O SERVIDOR-->
                                 <div class="label-float">
-                                    <input class="input" type="text" placeholder=" " id="usuario" name="usuario">
+                                    <input class="input" type="text" placeholder=" " id="usuario" name="usuario" size="40">
                                     <label>Usuário</label><br><br>
                                 </div> 
                                 <div class="label-float">
-                                    <input class="input" type="text" placeholder=" " required id="senha" name="senha">
+                                    <input class="input" type="text" placeholder=" " required id="senha" name="senha" size="40">
                                     <label>Senha</label>
-
-                                </div> 
+                                </div>
+                                    <div id="container-button">
+                                        <button id="login-button" type="submit">Entrar</button>
+                                    </div>
                             </form>
+                        </div>
+                        <div id="container-login2">
+                            <div id="container-txt1">
+                                <p>Outras formas de login</p><br>
+                            </div>
+                            <div id="container-outside-logo">
+                                <div class="container-logos">
+                                    <img class="logo-img" src="facebook-icon.png">
+                                    <img class="logo-img" src="google-icon.png">
+                                    <img class="logo-img" src="apple-icon.png">
+                                </div>
+                            </div>
+                        </div>
+                        <div id="container-links-outside-outside">
+                            <div id="container-links-outside">
+                                <nav>
+                                    <ul>
+                                        <div id="container-msg-links">
+                                            <p>Não tem uma conta? &nbsp;</p>   
+                                            <li><a href="cadastro.html">Cadastre-se</a></li>
+                                        </div>
+                                        <div id="container-msg-links">
+                                            <p>Esqueceu sua senha? &nbsp;</p>
+                                            <li><a href="redefinir-senha.html">Trocar senha</a></li>
+                                        </div>
+                                    </ul>
+                                </nav>
+                            </div>
                         </div>
                     </div>
                 </div>
